@@ -13,7 +13,7 @@ var data;
 $(document).ready(function(){
 
 	if(production==1) 
-		path="http://picnic.pe/clientes/datum/app/";
+		path="http://picnic.pe/clientes/datum/";
 	else
 		path="http://localhost/datum/";
 
