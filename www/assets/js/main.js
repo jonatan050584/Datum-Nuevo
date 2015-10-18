@@ -42,7 +42,13 @@ function ini_datos(){
 	$.ajax({
 		crossDomain: true,
 		url:ruta("api/data.json"),
-		dataType:'json'
+		dataType:'json',
+		success:function(response){
+			alert("ok");
+		},
+		error:function(){
+			alert("error");
+		}
 	}).done(function(res){
 		data = res.data;
 		cargar_categorias();
