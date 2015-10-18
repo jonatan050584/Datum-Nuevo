@@ -1,0 +1,147 @@
+body{
+	margin: 0px;
+	padding: 0px;
+
+}
+html {
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+.clear{
+	clear: both;
+}
+#nav{
+	height: 50px;
+	background: #9e027e;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+}
+#nav .titulo{
+	font-family: 'HelveticaNeueBold';
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-size: 19px;
+}
+#nav .back{
+	position: absolute;
+	background: url("flecha.png");
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	display: none;
+}
+.seccion{
+	margin-top: 50px;
+	display: none;
+}
+#home{
+	padding: 56px 35px;
+	display: block;
+}
+#home .logo{
+	margin: auto;
+	display: block;
+	margin-bottom: 23px;
+}
+#home .texto{
+	text-align: center;
+	font-family: 'HelveticaNeueLight';
+	font-size: 14px;
+	line-height: 18px;
+	color: #545454;
+	margin-bottom: 30px;
+}
+#home .btempezar{
+	font-family: 'HelveticaNeueBold';
+	font-size: 16px;
+	color:#9e027e;
+	text-align: center;
+	line-height: 35px;
+	width: 110px;
+	margin: auto;
+	border: solid 1px #9e027e;
+}
+#menu{
+	background: #fff;
+	padding: 1px;
+}
+#menu .item{
+	width: 50%;
+	float: left;
+}
+#menu .item .bt{
+	margin: 1px;
+	background: #e9e9e9;
+	height: 150px;
+	background-size: 66px 63px;
+	background-repeat: no-repeat;
+	background-position: center 30px;
+	position: relative;
+}
+#menu .item .bt .nom{
+	font-family: 'HelveticaNeueBold';
+	position: absolute;
+	width: 100%;
+	color: #444444;
+	font-size: 17px;
+	text-align: center;
+	margin-top: 90px;
+	height: 45px;
+	display: table;
+}
+#menu .item .bt .nom .txt{
+	display: table-cell;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+#menu .item.bottom .bt{
+	background: #5d5d5d;
+	height: 35px;
+	font-family: 'HelveticaNeueBold';
+	font-size: 17px;
+	color: #fff;
+	line-height: 35px;
+	text-align: center;
+}
+#categoria{
+
+}
+#categoria .banner{
+	height: 205px;
+	background: url("imgbg.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+#categoria .banner .area{
+	height: 100%;
+	width: 100%;
+	background: url("b2o.png") no-repeat center 50px;
+	background-size: 66px 63px;
+}
+#categoria .banner .area .titulo{
+	font-family: 'HelveticaNeueBold';
+	color: #fff;
+	padding-top: 117px;
+	font-size: 20px;
+	text-align: center;
+}
+#categoria .lista .item{
+	height: 47px;
+	border-bottom: solid 1px #c7c7c7;
+	background-color: #e9e9e9;
+	display: table;
+	width: 100%;
+}
+#categoria .lista .item .txt{
+	display: table-cell;
+	font-size: 13px;
+	vertical-align: middle;
+	font-family: 'HelveticaNeueLight';
+	padding: 0px 9px;
+
+}
