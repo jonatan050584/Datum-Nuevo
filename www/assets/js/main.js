@@ -40,6 +40,7 @@ $(document).ready(function(){
 })
 function ini_datos(){
 	$.ajax({
+		crossDomain: true,
 		url:ruta("api/data.json"),
 		dataType:'json'
 	}).done(function(res){
