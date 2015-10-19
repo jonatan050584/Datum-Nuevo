@@ -39,6 +39,7 @@ $(document).ready(function(){
 	});
 })
 function ini_datos(){
+	alert(1);
 	$.ajax({
 		crossDomain: true,
 		url:ruta("api/data.json"),
