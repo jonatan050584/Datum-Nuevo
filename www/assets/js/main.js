@@ -47,10 +47,13 @@ function ini_datos(){
 		success:function(response){
 			alert("ok");
 		},
-		error:function(a,b,c){
+		error:function(request,b,c){
 			alert("error");
-			alert(b);
-			alert(c);
+			
+		      alert("Error request status text: " + request.statusText);
+		      alert("Error request status: " + request.status);
+		      alert("Error request response text: " + request.responseText);
+		      alert("Error response header: " + request.getAllResponseHeaders());
 		}
 	}).done(function(res){
 		data = res.data;
