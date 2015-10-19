@@ -47,8 +47,10 @@ function ini_datos(){
 		success:function(response){
 			alert("ok");
 		},
-		error:function(){
+		error:function(a,b,c){
 			alert("error");
+			alert(b);
+			alert(c);
 		}
 	}).done(function(res){
 		data = res.data;
